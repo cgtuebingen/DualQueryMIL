@@ -1,0 +1,6 @@
+_target_: src.utils.Illustrator
+thumbnail_level: 5
+score_threshold: 0.0
+raw_root_dir: ${paths.data_dir}/raw/test/images
+processed_root_dir: ${paths.data_dir}/processed/camelyon
+output_dir: ${paths.data_dir}/results/attention_maps

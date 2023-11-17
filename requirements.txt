@@ -1,0 +1,53 @@
+# --------- pytorch --------- #
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==1.12.1+cu113 
+torchvision==0.13.1+cu113 
+torchaudio==0.12.1 
+pytorch-lightning==1.7.1
+torchmetrics
+torch_geometric
+
+# --------- math --------- #
+einops
+numpy
+
+# --------- ml-libs --------- #
+scikit_learn
+scipy
+scikit-image
+transformers
+
+# --------- hydra --------- #
+hydra-core==1.2.0
+hydra-colorlog==1.2.0
+hydra-optuna-sweeper==1.2.0
+
+# --------- loggers --------- #
+wandb
+# neptune-client
+# mlflow
+# comet-ml
+
+# --------- dataset --------- #
+dill
+geojson
+h5py
+msgpack_python
+pyzmq
+webdataset
+lmdb
+
+# --------- others --------- #
+matplotlib
+pandas
+Pillow
+pre-commit      # hooks for applying linters on commit
+pyrootutils     # standardizing the project root setup
+pytest          # tests
+requests
+rich            # beautiful text formatting in terminal
+sh            # for running bash commands in some tests (linux/macos only)
+tqdm
+opencv-python
+openslide-python
+seaborn

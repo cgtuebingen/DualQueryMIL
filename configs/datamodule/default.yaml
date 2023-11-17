@@ -1,0 +1,7 @@
+_target_: src.datamodules.mil_datamodule.MILDataModule
+num_workers: 40
+batch_size: 1
+test_size: 0.2
+pin_memory: False
+num_splits: 1
+fold_id: 0

@@ -1,0 +1,24 @@
+defaults:
+  - model_checkpoint.yaml
+  - early_stopping.yaml
+  - model_summary.yaml
+  - rich_progress_bar.yaml
+  - _self_
+
+model_checkpoint:
+  dirpath: "${paths.output_dir}/${datamodule.dataset.name}_${datamodule.dataset.feature_extractor}_${model.name}"
+  filename: "epoch_{epoch:03d}"
+
+  monitor: "val/MulticlassF1Score"
+  mode: "max"
+  save_last: False
+  auto_insert_metric_name: False
+
+early_stopping:
+  monitor: "val/MulticlassF1Score"
+  mode: "max"
+  patience: 50
+
+
+model_summary:
+  max_depth: -1

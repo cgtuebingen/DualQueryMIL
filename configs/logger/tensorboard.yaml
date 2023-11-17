@@ -1,0 +1,11 @@
+# https://www.tensorflow.org/tensorboard/
+
+tensorboard:
+  _target_: pytorch_lightning.loggers.tensorboard.TensorBoardLogger
+  save_dir: "${paths.output_dir}/${datamodule.dataset.name}_${datamodule.dataset.feature_extractor}_${model.name}"
+  name: tensorboard
+  version: null
+  log_graph: False
+  default_hp_metric: True
+  prefix: ""
+  # version: ""

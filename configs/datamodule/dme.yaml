@@ -1,0 +1,55 @@
+defaults:
+  - default.yaml
+
+dataset:
+  _target_: src.datamodules.mil_datamodule.ConcatDataset
+  _partial_: true
+  name: camelyon #tcga_breast #tcga_bladder
+  label_type: cancer_class_short #cancer_type_short #grade
+  reference_shape: 3072 # for Bladder 1536
+  num_classes: 2
+  feature_extractor: "joint_dino_dinov2_swav"
+  root_dir: ${paths.processed_root_dir}
+  dino:
+    _target_: src.datamodules.mil_datamodule.SlideDataset
+    _partial_: true
+    name: ${datamodule.dataset.name}
+    label_type: ${datamodule.dataset.label_type}
+    num_classes: ${datamodule.dataset.num_classes}
+    root_dir: ${datamodule.dataset.root_dir}
+    stainings:
+      - "HE"
+    level: 1
+    shuffle_instances: false
+    feature_extractor: "resnet50_dino"
+    reference_shape: 2048
+  dino_v2:
+    _target_: src.datamodules.mil_datamodule.SlideDataset
+    _partial_: true
+    name: ${datamodule.dataset.name}
+    label_type: ${datamodule.dataset.label_type}
+    num_classes: ${datamodule.dataset.num_classes}
+    root_dir: ${datamodule.dataset.root_dir}
+    stainings:
+      - "HE"
+    level: 1
+    shuffle_instances: false
+    feature_extractor: "vit_dino_v2"
+    reference_shape: 1024
+  swav:
+    _target_: src.datamodules.mil_datamodule.SlideDataset
+    _partial_: true
+    name: ${datamodule.dataset.name}
+    label_type: ${datamodule.dataset.label_type}
+    num_classes: ${datamodule.dataset.num_classes}
+    root_dir: ${datamodule.dataset.root_dir}
+    stainings:
+      - "HE"
+    level: 1
+    shuffle_instances: false
+    feature_extractor: "resnet50_swav"
+    reference_shape: 2048
+
+
+
+

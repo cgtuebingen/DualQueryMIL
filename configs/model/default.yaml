@@ -1,0 +1,12 @@
+_target_: src.models.mil_module.MilModule
+
+slide_loss_fn:
+  _target_: torch.nn.CrossEntropyLoss
+
+scheduler: 
+  # null
+  _target_: torch.optim.lr_scheduler.ReduceLROnPlateau
+  _partial_: true
+  mode: min
+  factor: 0.1
+  patience: 800
