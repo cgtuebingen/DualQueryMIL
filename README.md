@@ -8,7 +8,7 @@ Implementation of our Dual-Query multiple instance learning approach. A novel me
 [Simon Holdenried-Krafft](https://www.grk2543.uni-stuttgart.de/en/team/Holdenried-Krafft/)<sup>1</sup>, [Peter Somers](https://www.grk2543.uni-stuttgart.de/en/team/Somers-00001/)<sup>3</sup>, [Ivonne A. Montes-Majarro](https://www.grk2543.uni-stuttgart.de/team/Montes-Mojarro/)<sup>2</sup>, [Diana Silimon](https://www.grk2543.uni-stuttgart.de/en/team/Silimon/)<sup>2</sup>, [Cristina Tarín](https://www.grk2543.uni-stuttgart.de/en/team/Tarin-Sauer-00003/)<sup>3</sup>, [Falko Fend](https://www.grk2543.uni-stuttgart.de/en/team/Fend/)<sup>2</sup>, [Hendrik P. A. Lensch](https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/computer-science/lehrstuehle/computergrafik/computer-graphics/staff/prof-dr-ing-hendrik-lensch/)<sup>1</sup><br>
 <sup>1</sup>University of Tübingen, <sup>2</sup>University Hospital of Tübingen, <sup>3</sup>University of Stuttgart
 <br><br>
-![](images/overview.png)
+![](images/overview.jpg)
 
 ## Setup
 
