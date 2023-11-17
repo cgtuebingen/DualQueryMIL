@@ -27,7 +27,7 @@ The configuration is based on [hydra](https://hydra.cc/). The settings can be fo
 To train the Dual-Query Perceiver run:
 
 ```
-python train.py
+python ./src/train.py 
 ```
 
 ## Datasets

@@ -1,8 +1,0 @@
-defaults:
-  - default.yaml
-
-# path to logging directory
-log_dir:  /scratch_shared/krafft/logs/DualQueryMIL
-
-# path to lmdb directory
-processed_root_dir: ${paths.data_dir}/processed

@@ -10,7 +10,7 @@ defaults:
   - callbacks: default.yaml
   - logger: many_loggers.yaml # set logger here or use command line (e.g. `python train.py logger=tensorboard`)
   - trainer: gpu.yaml
-  - paths: scratch_shared.yaml
+  - paths: lmdbs.yaml
   - extras: default.yaml
   - hydra: default.yaml
 
