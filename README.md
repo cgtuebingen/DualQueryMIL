@@ -17,6 +17,7 @@ A conda environment is used for dependency management
 ```
 conda create -n dqmil python=3.7
 conda activate dqmil
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install -r requirements.txt
 ```
 ## Running
