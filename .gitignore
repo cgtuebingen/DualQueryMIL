@@ -138,5 +138,5 @@ dmypy.json
 cython_debug/
 
 # Data links
-data/processed/*
-data/raw/*
+data/processed/camelyon
+data/raw/camelyon
