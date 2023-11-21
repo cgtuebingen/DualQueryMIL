@@ -4,7 +4,7 @@
 
 [![BMVC 2023](https://img.shields.io/badge/British_Machine_Vision_Conference_2023_(Oral)-BMVC_2023-4b44ce.svg)](https://papers.bmvc2023.org/0575.pdf)
 <br>
-[![python](https://img.shields.io/badge/-Python_3.7-blue?logo=python&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![python](https://img.shields.io/badge/-Python_3.7-blue?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3717/)
 [![pytorch](https://img.shields.io/badge/PyTorch_1.12-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 </div>
 
