@@ -10,7 +10,7 @@
 
 <div align="center">
 
-## [Paper](https://papers.bmvc2023.org/0575.pdf)
+## [Paper](https://papers.bmvc2023.org/0575.pdf) / [Project Page](https://proceedings.bmvc2023.org/575/)
 </div>
 
 This repository covers the official implementation of our Dual-Query multiple instance learning approach for histopathological image analysis, a [BMVC 2023 (Oral) paper](https://papers.bmvc2023.org/0575.pdf). A novel method for histopathological slide assessment, extending on the [perceiver](http://proceedings.mlr.press/v139/jaegle21a/jaegle21a.pdf) architecture and leveraging a dynamic meta-embedding strategy.
@@ -50,10 +50,12 @@ The implementation relies on lmdbs. The corresponding code to create the dataset
 If you find this code useful, please consider citing:
 
 ```
-@inproceedings{holdenriedkrafft2023dqmil,
-  author    = {Holdenried-Krafft, Simon and Somers, Peter and Montes-Majarro, Ivonne A. and Silimon, Diana and Tarín, Cristina and Fend, Falko and Lensch, Hendrik P.A.},
-  title     = {Dual-Query Multiple Instance Learning for Dynamic Meta-Embedding based Tumor Classification},
-  booktitle = {BMVC},
-  year      = {2023}
+@inproceedings{Holdenried-Krafft_2023_BMVC,
+author    = {Simon Holdenried-Krafft and Peter Somers and Ivonne Montes-Mojarro and Diana Silimon and Cristina Tarín and Falko Fend and Hendrik P. A. Lensch},
+title     = {Dual-Query Multiple Instance Learning for Dynamic Meta-Embedding based Tumor Classification},
+booktitle = {34th British Machine Vision Conference 2023, {BMVC} 2023, Aberdeen, UK, November 20-24, 2023},
+publisher = {BMVA},
+year      = {2023},
+url       = {https://papers.bmvc2023.org/0575.pdf}
 }
 ```
